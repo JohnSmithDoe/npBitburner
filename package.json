@@ -1,0 +1,20 @@
+{
+  "name": "bitburner",
+  "version": "1.0.0",
+  "description": "bitburner",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "clean": "rm -rf build/*"
+  },
+  "keywords": [
+    "bitburner",
+    "leto"
+  ],
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "author": "leto the c0dem0nkey",
+  "license": "ISC"
+}

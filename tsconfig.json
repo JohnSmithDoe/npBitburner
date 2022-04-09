@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target":                       "ES2021",
+    "module":                       "ES2020",
+    "rootDir":                      "src/",
+    "baseUrl":                      ".",
+    "paths":                        {
+      "scripts/*": ["src/scripts/*"]
+    },
+    "outDir":                       "build/",
+    "moduleResolution":             "node",
+    "strictNullChecks":             true,
+    "strictPropertyInitialization": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules", "backup"
+  ]
+}
